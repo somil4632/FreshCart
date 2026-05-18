@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import "./Navbar.css";
-import logo from "../../assets/freshcart-logo.png"
-import cart from "../../assets/cart.png"
+import logo from "../../assets/freshcart-logo.png";
+import cart from "../../assets/cart.png";
+import {Link} from "react-router-dom";
 const Navbar = () => {
     const[menu, setMenu]=useState("home")
     return (
@@ -11,10 +12,11 @@ const Navbar = () => {
                 <p>From Farm To Your Door</p>
             </div>
             <ul className="nav-menu">
-              <li onClick={()=>{setMenu("home")}}>Home{menu==="home" ? <hr/>:<></>}</li>
-              <li onClick={()=>{setMenu("grocery")}}>Grocery {menu==="grocery" ? <hr/>:<></>}</li>
-              <li onClick={()=>{setMenu("snacks")}}>Snacks {menu==="snacks" ? <hr/>:<></>}</li>
-              <li onClick={()=>{setMenu("drinks ")}}>Drinks {menu==="drinks" ? <hr/>:<></>}</li>
+              <li onClick={() => setMenu("home")}><Link to="/">Home</Link>{menu==="home" ? <hr/>:<></>}</li>
+              <li onClick={() => setMenu("grocery")}><Link to="/">Grocery</Link>{menu==="grocery" ? <hr/>:<></>}</li>
+              <li onClick={() => setMenu("snacks")}><Link to="/">Snacks</Link> {menu==="snacks" ? <hr/>:<></>}</li>
+              <li onClick={() => setMenu("drinks ")}><Link to="/">Drinks</Link> {menu==="drinks" ? <hr/>:<></>}</li>
+               <li onClick={() => setMenu("categories ")}><Link to="/">categories</Link> {menu==="categories" ? <hr/>:<></>}</li>
             </ul>
             <div className="nav-login-cart">
                 <button>Login</button>

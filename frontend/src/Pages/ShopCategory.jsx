@@ -1,7 +1,7 @@
 import React from 'react'
 const ShopCategory = () => {
     return (
-        <div>ShopCategory</div>
+        <div>Shop Category Page</div>
     )
 }
 export default ShopCategory

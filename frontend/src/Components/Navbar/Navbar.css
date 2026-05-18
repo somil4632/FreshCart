@@ -41,6 +41,10 @@
     gap: 3px;
     cursor: pointer;
 }
+.nav-menu li a{
+    text-decoration: none;
+    color: #626262;
+}
 .nav-menu hr{
     border: none;
     width: 80%;
