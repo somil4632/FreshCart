@@ -1,0 +1,8 @@
+import p1_img from '../assets/amul gold.png'
+import p2_img from '../assets/bonn white bread.png'
+import p3_img from '../assets/britina fruit bread.png'
+import p4_img from '../assets/bonn bombay pav.png'
+import p5_img from '../assets/chocos.png'
+import p6_img from '../assets/amul moti tonned.png'
+import p6_img from '../assets/yakuit.webp'
+import p7_img from '../assets/alpino oats.png'
