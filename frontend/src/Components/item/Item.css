@@ -1,9 +1,21 @@
 .item{
-    width: 350px;
-
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
 }
-.item-p{
-    margin: 6px 0px;
+.item img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.item p{
+    margin: 10px 0px;
+    font-size: 18px;
+    font-weight: 500;
 }
 .item-prices{
     display: flex;
@@ -14,13 +26,12 @@
     font-size: 16px;
     font-weight: 600;
 }
-.item-proce-old{
+.item-price-old{
     color: #8c8c8c;
     font-size: 16px;
-    font-weight:500;
+    font-weight: 500;
     text-decoration: line-through;
 }
 .item:hover{
-    transform: scale(1.1);
-    transition: 0.6s;
+    transform: scale(1.05);
 }

@@ -12,8 +12,8 @@ import p11_img from '../assets/farm made egg.png'
 import p12_img from '../assets/corn flakes.png'
 import p13_img from '../assets/nestle milk.webp'
 import p14_img from '../assets/yoga bar dark oats.webp'
-import p15_img from '../white egg.png'
-import p16_imp from '../assets/aanand panner.png'
+import p15_img from '../assets/white egg.png'
+import p16_img from '../assets/aanand panner.png'
 import p17_img from '../assets/amul masti curd.png'
 import p18_img from '../assets/cremyo yogurt.avif'
 import p19_img from '../assets/amul butter.webp'
@@ -57,7 +57,7 @@ let all_product = [
     {id:20, name: "Dlecta cheese", category: "Dairy Product", image: p20_img, new_price: 180, old_price: 150 },
     {id:21, name: "Dlecta Cream", category: "Dairy Product", image: p21_img, new_price: 220, old_price: 1902 },
     {id:22, name: "Thai Rice", category: "Breakfast", image: p22_img, new_price: 80, old_price: 62 },
-    {id:23, name: "Wheat Noodles", category: "Breakfast", image: p23mg, new_price: 100, old_price: 90 },
+    {id:23, name: "Wheat Noodles", category: "Breakfast", image: p23_img, new_price: 100, old_price: 90 },
     {id:24, name: "Rajdhaini Poha", category: "Breakfast", image: p24_img, new_price: 70, old_price: 62 },
     {id:25, name: "Peanut Butter", category: "Breakfast", image: p25_img, new_price: 180, old_price: 160 },
     {id:26, name: "RiteBite Bar", category: "Dairy Product & Breakfast", image: p26_img, new_price: 50, old_price: 45 },

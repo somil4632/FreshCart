@@ -1,7 +1,7 @@
-import p1_img from '../assets/Thumbs uo.png'
-import p2_img from '../assets/atta.png'
-import p3_img from '../assets/blue lays.webp'
-import p4_img from '../assets/cardamom powder.webp'
+import p1_img from '../assets/thumbs up.png'
+import p2_img from '../assets/Atta.png'
+import p3_img from '../assets/yellow lays.png'
+import p4_img from '../assets/garlic powder.png'
 
 let data_product = [
     {
@@ -14,7 +14,7 @@ let data_product = [
     },
     {
         id: 2,
-        naem:"Multigrain Atta",
+        name:"Multigrain Atta",
         category: "Wheat",
         image: p2_img,
         new_price: 350,
@@ -22,7 +22,7 @@ let data_product = [
     },
     {
         id: 3,
-        name: "Blue Lays",
+        name: "Yellow lays",
         category: "Snacks & Munches",
         image: p3_img,
         new_price: 20,
@@ -30,10 +30,10 @@ let data_product = [
     },
     {
         id: 4,
-        naem: "Cardamom Powder",
+        name: "Orikia Garlic Powder",
         category: "Masala & Oil",
         image: p4_img,
-        enw_price: 260,
+        new_price: 260,
         old_price: 300,
     },
 ]
