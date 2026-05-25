@@ -25,7 +25,7 @@ import p24_img from './assets/wheat noodles.webp'
 import p25_img from './assets/peanut butter.png'
 import p26_img from './assets/RiteBite protien bar.webp'
 import p27_img from './assets/cucumber.png'
-import p28_img from './assets/Bobby Muskmelon.png'
+import p32_img from './assets/Bobby Muskmelon.png'
 
 
 let data_product = [
@@ -92,7 +92,7 @@ let data_product = [
         {id:25, name: "Peanut Butter", category: "Breakfast", image: p25_img, new_price: 180, old_price: 160 },
         {id:26, name: "RiteBite Bar", category: "Dairy Product & Breakfast", image: p26_img, new_price: 50, old_price: 45 },
         {id:27, name: "Cucumber", category: "Vegetable ", image: p27_img, new_price: 40, old_price: 60 },
-        {id:28, name: "Bobby Muskmelon", category: "Fruits ", image: p28_img, new_price: 40, old_price: 50 },
+        {id:32, name: "Bobby Muskmelon", category: "Fruits ", image: p32_img, new_price: 40, old_price: 50 },
     
 ]
 
