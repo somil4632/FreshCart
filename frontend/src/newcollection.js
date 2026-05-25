@@ -1,6 +1,6 @@
-import p28_img from '../assets/boon pizza base.png'
-import p29_img from '../assets/mango.png'
-import p30_img from '../assets/chcoco chip muffin.png'
+import p28_img from './assets/bonn pizza base.png'
+import p29_img from './assets/mango.png'
+import p30_img from './assets/chcoco chip muffin.png'
 
 
 let new_collection = [
