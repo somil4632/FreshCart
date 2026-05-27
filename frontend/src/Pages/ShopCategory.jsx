@@ -1,11 +1,14 @@
-import React , {useContext} from 'react'
+import React, { useContext } from 'react'
 import "../CSS/ShopCategory.css"
-import {ShopContext} from "../Context/ShopContext"
+import { ShopContext } from "../Context/ShopContext"
+
 const ShopCategory = (props) => {
-    const {all_products}=useContext(ShopContext)
+
+    const { all_products } = useContext(ShopContext)
+
     return (
         <div className='shop-category'>
-            
+
             <img src={props.banner} alt="" />
 
             {all_products.map((item, i) => {
@@ -24,4 +27,5 @@ const ShopCategory = (props) => {
         </div>
     )
 }
+
 export default ShopCategory

@@ -13,10 +13,10 @@ const Navbar = () => {
             </div>
             <ul className="nav-menu">
               <li onClick={() => setMenu("home")}><Link style={{textDecoration:"none" , color:"#024c02"}} to="/">Home</Link>{menu==="home" ? <hr/>:<></>}</li>
-              <li onClick={() => setMenu("grocery")}><Link style={{textDecoration:"none" , color:"#024c02"}} to="/grocery">Grocery</Link>{menu==="grocery" ? <hr/>:<></>}</li>
+              <li onClick={() => setMenu("dairy products")}><Link style={{textDecoration:"none" , color:"#024c02"}} to="/dairy products">Dairy Products</Link>{menu==="grocery" ? <hr/>:<></>}</li>
               <li onClick={() => setMenu("snacks")}><Link style={{textDecoration:"none" , color:"#024c02"}} to="/snacks">Snacks</Link> {menu==="snacks" ? <hr/>:<></>}</li>
               <li onClick={() => setMenu("drinks")}><Link style={{textDecoration:"none" , color:"#024c02"}} to="/drinks">Drinks</Link> {menu==="drinks" ? <hr/>:<></>}</li>
-               <li onClick={() => setMenu("categories")}><Link style={{textDecoration:"none" , color:"#024c02"}} to="/categories">Categories</Link> {menu==="categories" ? <hr/>:<></>}</li>
+               <li onClick={() => setMenu("vegetables")}><Link style={{textDecoration:"none" , color:"#024c02"}} to="/vegetables">Vegetables</Link> {menu==="categories" ? <hr/>:<></>}</li>
             </ul>
             <div className="nav-login-cart">
                 <Link to="/login">
