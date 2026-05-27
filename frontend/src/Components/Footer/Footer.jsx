@@ -10,8 +10,6 @@ const Footer = () => {
           <ul className='footer-links'>
             <li>About</li>
             <li>Products</li>
-            <li>Offices</li>
-            <li>Company</li>
             <li>Contact</li>
           </ul>
           <div className="footer-copyright">
