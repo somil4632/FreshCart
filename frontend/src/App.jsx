@@ -6,10 +6,10 @@ import Product from "./Pages/Product";
 import Cart from "./Pages/Cart";
 import LoginSignup from "./Pages/LoginSignup";
 import Footer from "./Components/Footer/Footer"
-import dairybanner from "./assets/dairy.png"
-import vegetable from "./assets/vegetables.png"
-import snacks from "./assets/snacks.png"
-import drinks from "./assets/drinks.png"
+import dairybanner from "./assets/dairy product banner.png"
+import vegetable from "./assets/vegetable banner.png"
+import snacks from "./assets/Snakes Banner.png"
+import drinks from "./assets/Drinks Store Banner.png"
 function App() {
    
 
