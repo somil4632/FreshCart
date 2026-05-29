@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import "../CSS/ShopCategory.css"
 import { ShopContext } from "../Context/ShopContext"
 import dropdown_icon from "../assets/dropdown_icon.png"
-import { IDLE_FETCHER } from 'react-router-dom'
+import Item from "../Components/Item/Item";
 
 const ShopCategory = (props) => {
 
@@ -20,7 +20,7 @@ const ShopCategory = (props) => {
                     </span>out of 20 prod
                 </p>
                 <div className='shopcategory-sort'>
-                    Sort by <img src={dropdown_icon} alt=""/>
+                    Sort by <img src={dropdown_icon} alt="" height="20px" />
 
                 </div>
             </div>
