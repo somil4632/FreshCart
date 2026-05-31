@@ -11,7 +11,7 @@ const Product = () => {
         return <div>Product not found</div>
     }
     return (
-        <div>
+        <div >
             <Breadcrums product={product}/>
             <ProductDisplay product={product}/>
         </div>

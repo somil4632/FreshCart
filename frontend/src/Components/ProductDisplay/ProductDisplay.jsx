@@ -10,23 +10,22 @@ const ProductDisplay = (props) => {
         <div className='productdisplay'>
           <div className="productdisplay-left">
             <div className="productdisplay-img-list">
-                <img src={product.image} alt="" height="200px"/>
-                 <img src={product.image} alt=""height="200px"/>
+                <img src={product.image} alt="" height="150px"/>
+                 <img src={product.image} alt=""height="150px"/>
             </div>
             <div className='productdisplay-img'>
-                <img className='productdisplay-main-img' src={product.image} alt="" height="500px"/>
+                <img className='productdisplay-main-img' src={product.image} alt="" height="300px"/>
             </div>
           </div>
 
           <div className="productdisplay-right">
-            <h1>{product.name}</h1>
+            <h1 className="productdisplay-h1">{product.name}</h1>
             <div className="productdisplay-right-star">
                 <img src={staricon} alt="" height="20px" />
                  <img src={staricon} alt="" height="20px" />
                   <img src={staricon} alt="" height="20px" />
                    <img src={staricon} alt="" height="20px" />
                     <img src={staricon} alt="" height="20px" />
-                    <p>{130}</p>
             </div>
              <div className="productdisplay-right-prices">
                 <div className="productdisplay-right-price-old">
@@ -34,6 +33,7 @@ const ProductDisplay = (props) => {
                 </div>
                  <div className="productdisplay-right-price-new">
                      &#8377;{product.new_price}
+                 </div>
                  </div>
                  <div className="productdisplay-right-description">
                     Fresh and high-quality grocery products available at affordable prices for everyday shopping needs
@@ -55,7 +55,6 @@ const ProductDisplay = (props) => {
                  </div>
              </div>
           </div>
-        </div>
     )
 }
 export default ProductDisplay
