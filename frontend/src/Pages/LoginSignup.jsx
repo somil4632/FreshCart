@@ -7,8 +7,8 @@ const LoginSignup = () => {
         <h1>Sign Up</h1>
            <div className='loginsignup-fields'>
               <input type='text' placeholder='Your Name'/>
-              <input typw='email' placeholder='Email Address'/>
-              <input tupw='password' placeholder='Password'/>
+              <input type='email' placeholder='Email Address'/>
+              <input type='password' placeholder='Password'/>
                <button>continue</button>
            </div>
           
