@@ -4,7 +4,7 @@ import p30_img from './assets/chcoco chip muffin.png'
 import p33_img from './assets/chocolate cone.png'
 import p34_img from './assets/soya sauce.png'
 import p35_img from './assets/chocolate cookie.png'
-import p36_img from './assets/blueberry jam.png'
+import p36_img from './assets/blueberry jamm.png'
 import p37_img from './assets/kettle sweet chilly chips.png'
 
 let new_collection = [

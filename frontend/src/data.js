@@ -23,7 +23,7 @@ import p22_img from './assets/dlecta cream.webp'
 import p23_img from './assets/thai rice.webp'
 import p24_img from './assets/wheat noodles.webp'
 import p25_img from './assets/peanut butter.png'
-import p26_img from './assets/RiteBite protien bar.webp'
+import p26_img from './assets/RiteBite protien bar.png'
 import p27_img from './assets/cucumber.png'
 import p32_img from './assets/Bobby Muskmelon.png'
 
