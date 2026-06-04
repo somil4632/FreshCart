@@ -1,8 +1,10 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import "./ProductDisplay.css"
 import staricon from "../../assets/star icon.png"
+import { ShopContext } from '../../Context/ShopContext';
 const ProductDisplay = (props) => {
     const {product} = props;
+    const {addToCart} = useContext(ShopContext);
     if(!product){
         return <div>Loading...</div>
     }
@@ -46,7 +48,7 @@ const ProductDisplay = (props) => {
                         <div>3 Pack</div>
                     </div>
                  </div>
-                 <button>ADD TO CART</button>
+                 <button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button>
                  <div className="productdisplay-right-category">
                     <span>Category:<span> Snacks , Drinks , Vegetables , Dairy Products</span></span>
                  </div>
