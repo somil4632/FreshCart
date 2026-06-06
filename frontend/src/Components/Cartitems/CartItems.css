@@ -46,3 +46,61 @@
 .cartitems-format img:last-child{
     cursor: pointer;
 }
+.cartitems-down{
+    display: flex;
+    margin: 70px 0px;
+}
+.cartitems-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    gap: 30px;
+}
+.cartitems-total-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.cartitems-total button{
+    width: 250px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background: #ff5a5a;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.cartitems-promocode{
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+}
+.cartitems-promocode p{
+    color: #02360b;
+}
+.cartitems-promobox{
+    width: 300px;
+    margin-top: 15px;
+    padding-left: 20px;
+    height: 50px;
+    background: linear-gradient(180deg,#b9b87a,#e1ffea22,#b9b87a);
+}
+.cartitems-promobox input{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    width: 300px;
+    height: 50px;
+}
+.cartitems-promobox button{
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    background: #ff4141;
+    color: white;
+    cursor: pointer;
+}
