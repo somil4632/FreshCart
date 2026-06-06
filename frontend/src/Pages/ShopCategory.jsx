@@ -1,12 +1,14 @@
-import React, { useContext } from 'react'
-import "../CSS/ShopCategory.css"
-import { ShopContext } from "../Context/ShopContext"
+import React, { useContext } from 'react';
+import "../CSS/ShopCategory.css";
+import { ShopContext } from "../Context/ShopContext";
 import dropdown_icon from "../assets/dropdown_icon.png"
 import Item from "../Components/Item/Item";
 
 const ShopCategory = (props) => {
 
-    const {all_products}=useContext(ShopContext)
+    const {all_products}=useContext(ShopContext);
+    console.log(props.category);
+    console.log(all_products);
 
     return (
         <div className='shop-category'>
@@ -25,13 +27,15 @@ const ShopCategory = (props) => {
                 </div>
             </div>
             <div className="shopcategory-products">
-                {all_products.map((item,i)=>{
-                    if(props.category === item.category){
-                        return <Item key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price}/>
-                    }else{
-                        return null;
-                    }
-                })}
+                {all_products.map((item, i) => {
+                   console.log(item.category);
+              if (props.category === item.category) {
+                     return (
+                   <Item  key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price}/>
+        );
+    }
+    return null;
+})}
             </div>
             <div className="shopcategory-loadmore">
                 Explore More

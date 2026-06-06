@@ -20,10 +20,10 @@ function App() {
            <Navbar/>
            <Routes>
             <Route path="/" element={<Shop/>}/>
-              <Route path="/Dairy Product" element={<ShopCategory banner={dairybanner} category="dairy product"/>}/>
+             <Route path="/dairy-products"element={<ShopCategory banner={dairybanner} category="dairy products"/>}/>
                 <Route path="/snacks" element={<ShopCategory banner={snacks}   category="snack" />}/>
                   <Route path="/drinks" element={<ShopCategory  banner={drinks}  category="drink" />}/>
-                      <Route path="/vegetables" element={<ShopCategory banner={vegetable}  category="vegetable"/>}/>
+                      <Route path="/vegetables" element={<ShopCategory banner={vegetable}  category="vegetables"/>}/>
                       <Route  path="/product" element={<Product />}/>
                       <Route path="/product/:productId" element={<Product />}/>
                       <Route path="/cart" element={<Cart />}/>
