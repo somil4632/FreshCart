@@ -7,9 +7,6 @@ const Description = () => {
                 <div className="descriptionbox-nav-box">
                     Description
                 </div>
-                <div className="descriptionbox-nav-box-fade">
-                 Review (135)
-                </div>
             </div>
             <div className="descriptionbox-description">
                     <p>FreshCart is an online grocery shopping platform that provides

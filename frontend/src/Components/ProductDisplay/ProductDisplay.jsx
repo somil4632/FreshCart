@@ -40,17 +40,10 @@ const ProductDisplay = (props) => {
                  <div className="productdisplay-right-description">
                     Fresh and high-quality grocery products available at affordable prices for everyday shopping needs
                  </div>
-                 <div className='productdisplay-right-quantity'>
-                    <h1>Select Quantity</h1>
-                    <div className="productdisplay-right-quantity">
-                        <div>1 Pack</div>
-                        <div>2 Pack</div>
-                        <div>3 Pack</div>
-                    </div>
-                 </div>
+                 
                  <button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button>
                  <div className="productdisplay-right-category">
-                    <span>Category:<span> Snacks , Drinks , Vegetables , Dairy Products</span></span>
+                    <span>Category:<span> snacks , Drinks , Vegetables , Dairy Products</span></span>
                  </div>
                  <div className="productdisplay-right-category">
                     <span>Tags:<span> Fresh , Oragnic , Healthy , Best Quality</span></span>

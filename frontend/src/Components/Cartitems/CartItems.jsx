@@ -3,7 +3,7 @@ import "./CartItems.css"
 import removeicon from "../../assets/remove icon.png"
 import {ShopContext} from "../../Context/ShopContext";
 const CartItems = () => {
-    const {getTotalcartAmount,all_products,cartItems,removeFromCart} = useContext(ShopContext);
+    const {getTotalcartAmount,all_products,cartItems,removeFromCart, addToCart} = useContext(ShopContext);
     return (
         <div className='cartitems'>
             <div className="cartitems-format-main">
@@ -24,7 +24,11 @@ const CartItems = () => {
                     <img src={e.image} alt="" className='carticon-product-icon' height="100px"/>
                     <p>{e.name}</p>
                     <p>&#8377;{e.new_price}</p>
-                    <button className='cartitems-quantity'>{cartItems[e.id]}</button>
+                    <div className='cartitems-quantity'>
+                        <button onClick={() => removeFromCart(e.id)}>-</button>
+                        <span>{cartItems[e.id]}</span>
+                        <button onClick={() => addToCart(e.id)}>+</button>
+                    </div>
                     <p>{e.new_price*cartItems[e.id]}</p>
                     <img src={removeicon} alt="" onClick={()=> removeFromCart(e.id)} height="40px"/>
                 </div>

@@ -53,7 +53,7 @@ let all_product = [
         {
             id: 3,
             name: "Yellow lays",
-            category: "Snack",
+            category: "snack",
             image: p3_img,
             new_price: 15,
             old_price: 20,

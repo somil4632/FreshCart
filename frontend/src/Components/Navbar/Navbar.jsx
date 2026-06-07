@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 import {ShopContext} from "../../Context/ShopContext";
 const Navbar = () => {
     const[menu, setMenu]=useState("home")
-  const { getTotalcartItems } = useContext(ShopContext);
+  const { getTotalcartItems , user , logout } = useContext(ShopContext);
     return (
         <div className='navbar'>
             <div className="nav-logo">
@@ -16,14 +16,23 @@ const Navbar = () => {
             <ul className="nav-menu">
               <li onClick={() => setMenu("home")}><Link style={{textDecoration:"none" , color:"#024c02"}} to="/">Home</Link>{menu==="home" ? <hr/>:<></>}</li>
               <li onClick={() => setMenu("dairy products")}><Link style={{textDecoration:"none" , color:"#024c02"}} to="/dairy-products">dairy Products</Link>{menu==="dairy products" ? <hr/>:<></>}</li>
-              <li onClick={() => setMenu("snacks")}><Link style={{textDecoration:"none" , color:"#024c02"}} to="/snacks">Snacks</Link> {menu==="snacks" ? <hr/>:<></>}</li>
+              <li onClick={() => setMenu("snacks")}><Link style={{textDecoration:"none" , color:"#024c02"}} to="/snacks">snacks</Link> {menu==="snacks" ? <hr/>:<></>}</li>
               <li onClick={() => setMenu("drinks")}><Link style={{textDecoration:"none" , color:"#024c02"}} to="/drinks">Drinks</Link> {menu==="drinks" ? <hr/>:<></>}</li>
                <li onClick={() => setMenu("vegetables")}><Link style={{textDecoration:"none" , color:"#024c02"}} to="/vegetables">Vegetables</Link> {menu==="vegetables" ? <hr/>:<></>}</li>
             </ul>
             <div className="nav-login-cart">
-                <Link to="/login">
+                {user ? (
+                    <>
+                      <span style ={{color:"#024c02", fontWeight:"600"}}>Hi , {user.name}</span>
+                      <button onClick={logout}>Logout</button>
+                    </>
+
+                ): (
+                    <Link to="/login">
                 <button>Login</button>
-                </Link>
+               </Link>
+                )}
+                
                 <Link to="/cart">
                 <img src={cart} alt="" height="40px" />
                 </Link>
@@ -32,4 +41,4 @@ const Navbar = () => {
         </div>
     );
 }
-export default Navbar;
+export default Navbar; 
