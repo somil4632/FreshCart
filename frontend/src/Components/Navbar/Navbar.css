@@ -4,7 +4,8 @@
     align-items: center;
     text-align: center;
     width: 100%;
-    padding: 8px 30px;
+    padding: 15px 30px;
+    flex-wrap:wrap;
     font-weight: bold;
     box-shadow: 0 1px 3px -2px black ;
 }   
@@ -26,7 +27,8 @@
     display:flex;
     align-items: center;
     list-style: none;
-    gap: 35px;
+    gap: 20px;
+    flex-wrap: wrap;
     color:#626262;
     font-size: 16px;
     font-weight: bold;
