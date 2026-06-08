@@ -2,12 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
     width: 100%;
     padding: 15px 30px;
-    flex-wrap:wrap;
     font-weight: bold;
     box-shadow: 0 1px 3px -2px black ;
+    box-sizing: border-box;
 }   
 
 .nav-logo{
@@ -67,7 +66,7 @@
     border: 1px solid #7a7a7a;
     border-radius: 75px;
     color: #515151;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     cursor: pointer;
 }
@@ -86,4 +85,22 @@
     font-size: 14px;
     background: #ff4141;
     color: white;
+}
+@media (max-width : 768px) {
+      .navbar {
+        padding: 15px 20px;
+      }
+      .nav-menu {
+        gap: 12px;
+        font-size: 14px;
+      }
+}
+@media (max-width: 480px) {
+    .nav-login-cart button {
+        width: 80px;
+        font-size: 13px;
+    }
+    .nav-logo p {
+        font-size: 14px;
+    }
 }

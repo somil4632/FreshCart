@@ -58,7 +58,7 @@ const CartItems = () => {
                     <p>&#8377;{getTotalcartAmount()}</p>
                 </div>
              </div>
-             <button>PROCEED TO CHECKOUT</button>
+             <button>ORDERS NOT OPEN YET!!</button>
            </div>
            <div className="cartitems-promocode">
                <p>If you have a promo code, Enter it here</p>

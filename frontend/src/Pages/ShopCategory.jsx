@@ -21,10 +21,6 @@ const ShopCategory = (props) => {
                         Showing 1-12
                     </span>out of 20 prod
                 </p>
-                <div className='shopcategory-sort'>
-                    Sort by <img src={dropdown_icon} alt="" height="20px" />
-
-                </div>
             </div>
             <div className="shopcategory-products">
                 {all_products.map((item, i) => {
@@ -36,9 +32,6 @@ const ShopCategory = (props) => {
     }
     return null;
 })}
-            </div>
-            <div className="shopcategory-loadmore">
-                Explore More
             </div>
         </div>
     )
