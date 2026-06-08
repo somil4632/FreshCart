@@ -101,6 +101,20 @@
         font-size: 13px;
     }
     .nav-logo p {
-        font-size: 14px;
+       display: none;
+    }
+    .nav-menu{
+        gap: 8px;
+        font-size: 13px;
+    }
+    .nav-login-cart{
+        gap: 12px;
+    }
+
+    .nav-login-cart button{
+        width: 75px;
+        height: 32px;
+        font-size: 12px;
     }
 }
+
