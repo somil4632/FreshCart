@@ -1,4 +1,4 @@
-import p1_img from './assets/thumbs up.png'
+import p1_img from './assets/Thumbs up.png'
 import p2_img from './assets/Atta.png'
 import p3_img from './assets/yellow lays.png'
 import p4_img from './assets/garlic powder.png'
