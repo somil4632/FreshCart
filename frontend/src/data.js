@@ -26,6 +26,14 @@ import p25_img from './assets/peanut butter.png'
 import p26_img from './assets/RiteBite protien bar.png'
 import p27_img from './assets/cucumber.png'
 import p32_img from './assets/Bobby Muskmelon.png'
+import p41_img from './assets/bonn pizza base.png'
+import p42_img from './assets/mango.png'
+import p43_img from './assets/chcoco chip muffin.png'
+import p44_img from './assets/chocolate cone.png'
+import p45_img from './assets/soya sauce.png'
+import p46_img from './assets/chocolate cookie.png'
+import p47_img from './assets/blueberry jamm.png'
+import p48_img from './assets/kettle sweet chilly chips.png'
 
 
 let data_product = [
@@ -93,6 +101,14 @@ let data_product = [
         {id:26, name: "RiteBite Bar", category: "snack", image: p26_img, new_price: 50, old_price: 45 },
         {id:27, name: "Cucumber", category: "vegetables ", image: p27_img, new_price: 40, old_price: 60 },
         {id:32, name: "Bobby Muskmelon", category: "vegetables", image: p32_img, new_price: 40, old_price: 50 },
+        { id: 41, name: "Bonn Pizza Base", category: "dairy products", image: p41_img, new_price: 50, old_price: 80},
+        { id: 42, name: "Pure Mango", category: "vegetables", image: p42_img, new_price: 120, old_price: 150},
+        { id: 43, name: "Choco Chip Muffin", category: "snack", image: p43_img, new_price: 180, old_price: 220},
+        { id: 44, name: "Chocolate Ice Cream Cone", category: "snack ", image: p44_img, new_price: 90, old_price: 110},
+        { id: 45, name: "Ching's Soya Sauce", category: "snack", image: p45_img, new_price: 250, old_price: 290},
+        { id: 46, name: "Amul Chocolate Cookie", category: "snack", image: p46_img, new_price: 110, old_price: 135},
+        { id: 47, name: "Darbo Blueberry Jam", category: "snack", image: p47_img, new_price: 250, old_price: 300},
+        { id: 48, name: "Kettle Sweet Chilly Chips", category: "snack", image: p48_img, new_price: 140, old_price: 180},
     
 ]
 

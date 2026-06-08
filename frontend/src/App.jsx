@@ -10,6 +10,7 @@ import dairybanner from "./assets/dairy product banner.png"
 import vegetable from "./assets/vegetable banner.png"
 import snacks from "./assets/Snakes Banner.png"
 import drinks from "./assets/Drinks Store Banner.png"
+import NewCollection from "./Components/NewCollections/NewCollections";
 function App() {
    
 
@@ -28,6 +29,7 @@ function App() {
                       <Route path="/product/:productId" element={<Product />}/>
                       <Route path="/cart" element={<Cart />}/>
                       <Route path="/login" element={<LoginSignup />}/>
+                      <Route path="/newcollection" element={<NewCollection/>}/>
            </Routes>
            <Footer/>
               </div>
