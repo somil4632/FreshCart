@@ -11,13 +11,14 @@ import vegetable from "./assets/vegetable banner.png"
 import snacks from "./assets/Snakes Banner.png"
 import drinks from "./assets/Drinks Store Banner.png"
 import NewCollection from "./Components/NewCollections/NewCollections";
+import './App.css' ;
 function App() {
    
 
   return (
       
         <BrowserRouter>
-         <div>
+         <div className="App">
            <Navbar/>
            <Routes>
             <Route path="/" element={<Shop/>}/>
